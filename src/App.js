@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-
-function App() {
+import TodoList from './components/TodoList';
+//JSX
+//function App() {
+const App = () => {
+  const thanh = <h1></h1>
   return (
     <div className="App">
       <header className="App-header">
@@ -9,6 +12,7 @@ function App() {
         <p>
           Hello Thanh
         </p>
+        <TodoList />
         <a
           className="App-link"
           href="https://reactjs.org"
