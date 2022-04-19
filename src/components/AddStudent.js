@@ -1,4 +1,4 @@
-import { flatMap } from "lodash";
+
 import { useState } from "react"
 const AddStudent = () => {
     const [isShowHide, setisShowHide] = useState(true)
@@ -7,7 +7,6 @@ const AddStudent = () => {
     const [studentName, setstudentName] = useState("");
     const [studentAge, setstudentAge] = useState("");
     const [studentAdd, setstudentAdd] = useState("");
-
     const handleAddBtn = () => {
         console.log("check add student", studentId, studentName, studentAge, studentAdd)
     }
