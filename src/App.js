@@ -1,27 +1,32 @@
 import logo from './logo.svg';
-import './App.css';
 import TodoList from './components/TodoList';
+import Home from './components/Home';
+import AddnewProduct from './components/AddnewProduct';
+import AddStudent from './components/AddStudent';
+import Product from './components/Products/Product';
+import './App.scss';
+import 'react-image-lightbox/style.css';
+
 //JSX
 //function App() {
 const App = () => {
-  const thanh = <h1></h1>
+
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello Thanh
-        </p>
-        <TodoList />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="App-header content-left">
+        <div style={{ textAlign: "center" }}><img src={logo} className="App-logo" alt="logo" /></div>
+        {/* <TodoList /> */}
+        <Home />
       </header>
+      <div className='content-right'>
+        <AddnewProduct />
+        <hr />
+        <Product />
+        {/* <AddStudent /> */}
+
+      </div>
     </div>
   );
 }
