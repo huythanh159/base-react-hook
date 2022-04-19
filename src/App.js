@@ -24,11 +24,14 @@ const App = () => {
     <Router>
       <Nav />
       <Switch>
-        <Route path="/about">
+        <Route path="/product">
           <Product />
         </Route>
-        <Route path="/users">
-          {/* <Users /> */}
+        <Route path="/weather">
+          <div>Weather app</div>
+        </Route>
+        <Route path="/about">
+          <div>About</div>
         </Route>
         <Route path="/">
           <div className="App">

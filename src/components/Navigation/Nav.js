@@ -5,7 +5,7 @@ const Nav = () => {
     return (
 
         <div class="topnav">
-            <NavLink class="active" to="/">Home</NavLink>
+            <NavLink to="/" exact={true}>Home</NavLink>
             <NavLink to="/product">Product</NavLink>
             <NavLink to="/weather">Weather App</NavLink>
             <NavLink to="/about">About</NavLink>
