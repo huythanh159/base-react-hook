@@ -1,0 +1,94 @@
+.weather-app-container {
+
+    .search-weather-container {
+        .search-inputs {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+
+            input {
+                height: 25px;
+                width: 200px;
+            }
+
+            button {
+                height: 30px;
+                cursor: pointer;
+                border: none;
+                border-radius: 5px;
+                margin: 3px;
+            }
+        }
+
+        .result-container {
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 15px;
+
+            .woeid {
+                span {
+                    b {
+                        cursor: pointer;
+                    }
+                }
+            }
+
+        }
+
+
+    }
+
+
+}
+
+.w-b-l-container {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+
+    .list-weather-day {
+        display: flex;
+        gap: 20px;
+    }
+
+    .back {
+        cursor: pointer;
+
+        span {
+            margin-bottom: 10px;
+        }
+    }
+
+    .weather-day0 {
+        display: flex;
+
+        .location-data {
+            padding: 15px;
+            min-width: 100px;
+
+
+            .title {
+                font-size: 20px;
+                color: #337ab7;
+                margin-bottom: 10px;
+                display: flex;
+                align-items: flex-end;
+
+                .country-title {
+                    font-size: 10px;
+                    margin-left: 5px;
+                }
+            }
+
+            .time {
+                font: size 13px;
+                ;
+            }
+        }
+    }
+}

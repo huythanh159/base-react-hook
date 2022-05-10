@@ -1,0 +1,82 @@
+.Otp-parent-container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 1px;
+
+
+
+    .generate-otp-container {
+        text-align: center;
+        margin-top: 100px;
+
+        button {
+            border: none;
+            border-radius: 4px;
+            padding: 5px;
+            font-size: 20px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .otp-lable {
+            font-size: 20px;
+            margin: 10px auto;
+            font-weight: 300;
+        }
+
+
+    }
+
+    .input-otp-container {
+        border: 5px solid rgb(224, 220, 220);
+        border-radius: 10px;
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;
+        gap: 10px;
+
+        .input-custom {
+            width: 3rem !important;
+            height: 3rem;
+            margin: 0 1rem;
+            font-size: 2rem;
+            border-radius: 4px;
+            border: 1px solid rgba(0, 0, 0, 0.3);
+        }
+
+        .title {
+            margin: 10px 0 10px 0;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+
+        .timer {
+            font-size: 18px;
+        }
+
+        .action {
+            padding: 5px;
+
+            .btnClear {
+                cursor: pointer;
+                font-size: 20px;
+                border: none;
+                margin: 10px;
+                border-radius: 5px;
+                padding: 5px;
+            }
+
+            .btnConfirm {
+                cursor: pointer;
+                font-size: 20px;
+                border: none;
+                border-radius: 5px;
+                padding: 5px;
+            }
+        }
+
+    }
+}

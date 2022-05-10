@@ -35,7 +35,7 @@ const TodoList = () => {
             <input value={todo} type="text" onChange={(event) => setTodo(event.target.value)} />
 
 
-            <button type="button" onClick={(event) => { handleClickBtn(event, "buttonClick") }}>Submit</button><br />
+            <button type="button" onClick={() => { handleClickBtn() }}>Submit</button><br />
 
 
             <div>------List todo: --------</div>
