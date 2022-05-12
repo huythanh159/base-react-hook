@@ -12,7 +12,7 @@ import Weather from './components/Weather/Weather';
 import GenerateOTP from './components/OTP/GenerateOTP';
 import OTP from './components/OTP/OTP';
 import WeatherByLocation from './components/Weather/WeatherByLocation';
-
+import MyTabs from './components/MyTabs/MyTabs';
 import {
   BrowserRouter as Router,
   Switch,
@@ -55,7 +55,8 @@ const App = () => {
           <OTP />
         </Route>
         <Route path="/about">
-          <div>About</div>
+          {/* <div>About</div> */}
+          <MyTabs />
         </Route>
         <Route path="/Weather/Detail/:woeid">
           <WeatherByLocation />

@@ -3,7 +3,7 @@ import "./CountDownAnimation.scss"
 const CountDownAnimation = forwardRef((props, ref) => {
 
 
-    const TIME_LIMIT = 5;
+    const TIME_LIMIT = 60;
     const [timeLeft, settimeLeft] = useState(TIME_LIMIT);
     const FULL_DASH_ARRAY = 283;
     const WARNING_THRESHOLD = 30;
